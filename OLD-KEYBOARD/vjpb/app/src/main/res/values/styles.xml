@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<style name="IOSKeyStyle">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#111111</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:gravity">center</item>
+</style>
+
+
+</resources>

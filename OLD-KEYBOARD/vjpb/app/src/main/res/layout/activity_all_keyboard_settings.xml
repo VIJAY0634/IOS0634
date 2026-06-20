@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#000000">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:padding="16dp"
+         android:orientation="vertical">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="12sp"
+             android:textColor="#8E8E93"
+             android:text="ALL KEYBOARDS"
+             android:textStyle="bold" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Auto-Capitalisation" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swAutoCapitalisation" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Auto-Correction" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swAutoCorrection" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Predictive Text" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swPredictiveText" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Show Predictions Inline" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swShowPredictions" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Show Maths Results" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swMathsResults" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Check Spelling" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swCheckSpelling" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Enable Caps Lock" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swCapsLock" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Smart Punctuation" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swSmartPunctuation" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Slide to Type" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swSlideToType" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Delete Slide-to-Type by Word" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swDeleteSlideWord" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="&quot;.&quot; Shortcut" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swShortcut" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="12sp"
+             android:textColor="#8E8E93"
+             android:layout_marginTop="24dp"
+             android:text="DICTATION"
+             android:textStyle="bold" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Enable Dictation" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swEnableDictation" />
+
+        </LinearLayout>
+
+        <View
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="#3A3A3C"
+             android:layout_marginStart="20dp" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Auto-Punctuation" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swAutoPunctuation" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:textSize="13sp"
+             android:textColor="#8E8E93"
+             android:text="Dictation processes many voice inputs. Information may be sent to Apple in some cases."
+             android:paddingTop="8dp" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="12sp"
+             android:textColor="#8E8E93"
+             android:layout_marginTop="24dp"
+             android:text="EMOJI"
+             android:textStyle="bold" />
+
+        <LinearLayout
+             android:layout_height="64dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="18sp"
+                 android:textColor="#FFFFFF"
+                 android:layout_weight="1"
+                 android:text="Stickers" />
+
+            <Switch
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:id="@+id/swStickers" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:textSize="13sp"
+             android:textColor="#8E8E93"
+             android:paddingTop="8dp"
+             android:text="Send stickers from the Emoji keyboard." />
+
+    </LinearLayout>
+
+</ScrollView>

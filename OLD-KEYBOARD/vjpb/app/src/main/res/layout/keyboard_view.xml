@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+     android:id="@+id/keyboardRoot"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:paddingEnd="6dp"
+     android:background="@drawable/keyboard_background"
+     android:orientation="vertical"
+     android:paddingBottom="4dp"
+     android:paddingStart="6dp"
+     android:paddingTop="4dp">
+
+    <FrameLayout
+         android:layout_height="36dp"
+         android:layout_width="match_parent"
+         android:layout_marginLeft="0dp"
+         android:layout_marginRight="0dp">
+
+        <include
+             layout="@layout/suggestion_bar" />
+
+    </FrameLayout>
+
+
+
+  
+    
+    
+    <LinearLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:paddingEnd="0dp"
+         android:layout_marginHorizontal="2dp"
+         android:orientation="horizontal"
+         android:paddingStart="0dp"
+         android:layout_marginTop="4dp">
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/q"
+             android:text="Q" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/w"
+             android:text="W" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/e"
+             android:text="E" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/r"
+             android:text="R" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/t"
+             android:text="T" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/y"
+             android:text="Y" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/u"
+             android:text="U" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/i"
+             android:text="I" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/o"
+             android:text="O" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/p"
+             android:text="P" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:paddingEnd="16dp"
+         android:orientation="horizontal"
+         android:paddingStart="16dp"
+         android:layout_marginTop="6dp">
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/a"
+             android:text="A" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/s"
+             android:text="S" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/d"
+             android:text="D" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/f"
+             android:text="F" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/g"
+             android:text="G" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/h"
+             android:text="H" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/j"
+             android:text="J" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/k"
+             android:text="K" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/l"
+             android:text="L" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:paddingEnd="0dp"
+         android:orientation="horizontal"
+         android:paddingStart="0dp"
+         android:layout_marginTop="6dp">
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="42dp"
+             android:layout_marginEnd="13.33dp"
+             android:background="@drawable/special_key_background"
+             android:textSize="18sp"
+             android:id="@+id/shift"
+             android:text="⇧" />
+
+        <Button
+             android:layout_height="43dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_marginStart="0dp"
+             android:width="0dp"
+             android:layout_weight="1"
+             android:id="@+id/z"
+             android:text="Z" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/x"
+             android:text="X" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/c"
+             android:text="C" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/v"
+             android:text="V" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/b"
+             android:text="B" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/n"
+             android:text="N" />
+
+        <Button
+             android:layout_height="40dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             style="@style/IOSKeyStyle"
+             android:layout_weight="1"
+             android:id="@+id/m"
+             android:text="M" />
+
+        <Button
+             android:layout_height="43dp"
+             android:layout_width="45.66dp"
+             android:layout_marginEnd="4dp"
+             android:background="@drawable/special_key_background"
+             android:textSize="18sp"
+             android:layout_marginStart="4dp"
+             android:id="@+id/backspace"
+             android:text="⌫" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="40dp"
+         android:layout_width="match_parent"
+         android:paddingEnd="0dp"
+         android:orientation="horizontal"
+         android:paddingStart="0dp"
+         android:layout_marginTop="6dp">
+
+        <Button
+             android:layout_height="43dp"
+             android:layout_width="91.67dp"
+             android:layout_marginEnd="4dp"
+             android:background="@drawable/special_key_background"
+             android:layout_marginHorizontal="3dp"
+             android:textSize="16sp"
+             android:id="@+id/key123"
+             android:text="123" />
+
+        <Button
+             android:layout_height="43dp"
+             android:layout_width="191dp"
+             android:background="@drawable/key_background"
+             android:layout_marginHorizontal="3dp"
+             android:layout_weight="1"
+             android:id="@+id/space" />
+
+        <Button
+             android:layout_height="43dp"
+             android:layout_width="93dp"
+             android:background="@drawable/return_key_background"
+             android:layout_marginHorizontal="3dp"
+             android:textSize="16sp"
+             android:textColor="#FFFFFF"
+             android:layout_marginStart="4dp"
+             android:id="@+id/returnKey"
+             android:text="return" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="34dp"
+         android:layout_width="match_parent"
+         android:gravity="center_vertical"
+         android:paddingRight="10dp"
+         android:orientation="horizontal"
+         android:paddingLeft="10dp">
+
+        <ImageButton
+             android:layout_height="24dp"
+             android:layout_width="24dp"
+             android:paddingEnd="18dp"
+             android:src="@drawable/ic_globe"
+             android:background="@android:color/transparent"
+             android:tint="#80000000"
+             android:paddingStart="18dp"
+             android:id="@+id/globe" />
+
+        <Space
+             android:layout_height="1dp"
+             android:layout_width="0dp"
+             android:layout_weight="1" />
+
+        <ImageButton
+             android:layout_height="24dp"
+             android:layout_width="24dp"
+             android:paddingEnd="18dp"
+             android:src="@drawable/ic_mic"
+             android:background="@android:color/transparent"
+             android:tint="#80000000"
+             android:paddingStart="18dp"
+             android:id="@+id/mic" />
+
+    </LinearLayout>
+
+    <ImageView
+         android:layout_height="56dp"
+         android:layout_width="56dp"
+         android:visibility="gone"
+         android:src="@drawable/ic_mic"
+         android:background="@drawable/mic_bubble"
+         android:padding="14dp"
+         android:tint="#FFFFFF"
+         android:layout_marginTop="-120dp"
+         android:id="@+id/floatingMic"
+         android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>

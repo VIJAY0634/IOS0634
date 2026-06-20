@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ios_separator">#D1D1D6</color>
+    <color name="ios_chevron">#C7C7CC</color>
+    <color name="ios_blue">#007AFF</color>
+    <color name="ios_page_background">#F2F2F7</color>
+	<color name="ios_card_background">#FFFFFF</color>
+	<color name="glass_background">#80F2F2F7</color>
+    <color name="ios_title_text">#000000</color>
+<color name="ios_subtitle_text">#6D6D72</color>
+	
+</resources>
+

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="420dp"
+     android:layout_width="match_parent"
+     android:paddingEnd="8dp"
+     android:background="@drawable/keyboard_background"
+     android:orientation="vertical"
+     android:paddingBottom="20dp"
+     android:paddingStart="8dp"
+     android:paddingTop="0dp">
+
+    <FrameLayout
+         android:layout_height="48dp"
+         android:layout_width="match_parent">
+
+        <include
+             layout="@layout/suggestion_bar" />
+
+        <LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_height="32dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal">
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="0dp"
+                 android:gravity="center"
+                 android:textSize="18sp"
+                 android:layout_weight="1"
+                 android:id="@+id/suggestion1"
+                 android:text="I" />
+
+            <View
+                 android:layout_height="24dp"
+                 android:layout_width="0.5dp"
+                 android:background="#33000000"
+                 android:layout_gravity="center" />
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="0dp"
+                 android:gravity="center"
+                 android:textSize="18sp"
+                 android:layout_weight="1"
+                 android:id="@+id/suggestion2"
+                 android:text="The" />
+
+            <View
+                 android:layout_height="24dp"
+                 android:layout_width="0.5dp"
+                 android:background="#33000000"
+                 android:layout_gravity="center" />
+
+            <TextView
+                 android:layout_height="match_parent"
+                 android:layout_width="0dp"
+                 android:gravity="center"
+                 android:textSize="18sp"
+                 android:layout_weight="1"
+                 android:id="@+id/suggestion3"
+                 android:text="I'm" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym1"
+             android:text="1" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym2"
+             android:text="2" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym3"
+             android:text="3" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym4"
+             android:text="4" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym5"
+             android:text="5" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym6"
+             android:text="6" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym7"
+             android:text="7" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym8"
+             android:text="8" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym9"
+             android:text="9" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym10"
+             android:text="0" />
+
+    </LinearLayout>
+
+    <Space
+         android:layout_height="11dp"
+         android:layout_width="match_parent" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym11"
+             android:text="-" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym12"
+             android:text="/" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym13"
+             android:text=":" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym14"
+             android:text=";" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym15"
+             android:text="(" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym16"
+             android:text=")" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym17"
+             android:text="₹" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym18"
+             android:text="&amp;" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym19"
+             android:text="@" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym20"
+             android:text="&quot;" />
+
+    </LinearLayout>
+
+    <Space
+         android:layout_height="11dp"
+         android:layout_width="match_parent" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/special_key_background"
+             android:layout_weight="1"
+             android:id="@+id/key123"
+             android:text="#+=" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym21"
+             android:text="." />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym22"
+             android:text="," />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym23"
+             android:text="?" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym24"
+             android:text="!" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:textSize="22sp"
+             android:textColor="#333333"
+             android:layout_weight="1"
+             android:id="@+id/sym25"
+             android:text="'" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/special_key_background"
+             android:layout_weight="1"
+             android:id="@+id/backspace"
+             android:text="⌫" />
+
+    </LinearLayout>
+
+    <Space
+         android:layout_height="11dp"
+         android:layout_width="match_parent" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="70dp"
+             android:background="@drawable/special_key_background"
+             android:id="@+id/abc"
+             android:text="ABC" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="0dp"
+             android:background="@drawable/key_background"
+             android:layout_weight="1"
+             android:id="@+id/space"
+             android:text="" />
+
+        <Button
+             android:layout_height="45dp"
+             android:layout_width="80dp"
+             android:background="@drawable/special_key_background"
+             android:id="@+id/returnKey"
+             android:text="return" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="36dp"
+         android:layout_width="match_parent"
+         android:gravity="center_vertical">
+
+        <ImageButton
+             android:layout_height="45dp"
+             android:layout_width="36dp"
+             android:src="@drawable/ic_globe"
+             android:background="@android:color/transparent"
+             android:id="@+id/globe" />
+
+        <Space
+             android:layout_height="1dp"
+             android:layout_width="0dp"
+             android:layout_weight="1" />
+
+        <ImageButton
+             android:layout_height="45dp"
+             android:layout_width="36dp"
+             android:src="@drawable/ic_mic"
+             android:background="@android:color/transparent"
+             android:id="@+id/mic" />
+
+    </LinearLayout>
+
+</LinearLayout>

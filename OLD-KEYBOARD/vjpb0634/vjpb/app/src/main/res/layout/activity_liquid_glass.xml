@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:id="@+id/coordinator">
+
+    <com.google.android.material.appbar.AppBarLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior"
+         android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+         android:id="@+id/appbar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+             android:layout_height="?attr/actionBarSize"
+             android:layout_width="match_parent"
+             android:background="@color/colorPrimary"
+             app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+             android:id="@+id/toolbar">
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+         android:fillViewport="true"
+         android:id="@+id/nested_scroll_view">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:padding="16dp"
+             android:orientation="vertical">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginBottom="16dp"
+                 android:textSize="24sp"
+                 android:text="Liquid Glass"
+                 android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                 android:layout_height="260dp"
+                 android:layout_width="match_parent"
+                 android:layout_marginBottom="16dp"
+                 app:cardElevation="8dp"
+                 android:layout_marginTop="12dp"
+                 app:cardCornerRadius="32dp"
+                 android:id="@+id/previewCard">
+
+                <FrameLayout
+                     android:layout_height="match_parent"
+                     android:layout_width="match_parent">
+
+                    <ImageView
+                         android:layout_height="match_parent"
+                         android:layout_width="match_parent"
+                         android:src="@drawable/liquid_glass_wallpaper_clear"
+                         android:scaleType="centerCrop"
+                         android:id="@+id/wallpaper" />
+
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_marginEnd="4dp"
+                 app:cardBackgroundColor="#1C1C1E"
+                 android:layout_marginTop="12dp"
+                 android:layout_marginStart="4dp"
+                 app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical">
+
+                    <LinearLayout
+                         android:layout_height="72dp"
+                         android:layout_width="match_parent"
+                         android:gravity="center_vertical"
+                         android:orientation="horizontal"
+                         android:paddingHorizontal="24dp"
+                         android:id="@+id/clearMode">
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="0dp"
+                             android:textSize="18sp"
+                             android:textColor="#FFFFFF"
+                             android:layout_weight="1"
+                             android:text="Clear" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:visibility="gone"
+                             android:textSize="28sp"
+                             android:textColor="#0A84FF"
+                             android:id="@+id/checkMarkClear"
+                             android:text="✓" />
+
+                    </LinearLayout>
+
+                    <View
+                         android:layout_height="1dp"
+                         android:layout_width="match_parent"
+                         android:background="#333333"
+                         android:layout_marginStart="24dp" />
+
+                    <LinearLayout
+                         android:layout_height="72dp"
+                         android:layout_width="match_parent"
+                         android:gravity="center_vertical"
+                         android:orientation="horizontal"
+                         android:paddingHorizontal="24dp"
+                         android:id="@+id/tintedMode">
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="0dp"
+                             android:textSize="18sp"
+                             android:textColor="#FFFFFF"
+                             android:layout_weight="1"
+                             android:text="Tinted" />
+
+                        <TextView
+                             android:layout_height="wrap_content"
+                             android:layout_width="wrap_content"
+                             android:textSize="28sp"
+                             android:textColor="#0A84FF"
+                             android:id="@+id/checkMark"
+                             android:text="✓" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:textSize="15sp"
+                 android:textColor="#8E8E93"
+                 android:layout_marginTop="16dp"
+                 android:text="Choose your preferred look for Liquid Glass. Clear is more transparent, revealing the content beneath. Tinted increases opacity and adds more contrast." />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

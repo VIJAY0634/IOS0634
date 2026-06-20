@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_page_background">
+
+    <include layout="@layout/top_bar_dictionary"/>
+       
+   <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/topBar"
+    android:paddingStart="16dp"
+android:paddingEnd="16dp"
+android:paddingTop="12dp"
+android:paddingBottom="24dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerDictionary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dictionary_card"
+    android:clipToPadding="false"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:overScrollMode="never"
+    android:scrollbars="none"/>
+
+</FrameLayout>
+
+</RelativeLayout>

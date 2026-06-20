@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vijay.ios26">
+
+<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity android:name=".LanguageActivity"/>
+
+        <activity
+            android:name=".GeneralActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LiquidGlassSettingsActivity"
+            android:exported="false" />
+        
+<activity
+    android:name=".AllKeyboardSettingsActivity"/>
+        
+        <activity
+            android:name=".DisplayActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SoundsActivity"
+            android:exported="false" />
+
+        <activity android:name=".AutoFillPasswordsActivity"/>
+
+     <activity android:name=".DictionaryActivity"/>
+
+  <activity android:name="com.vijay.ios26.KeyboardActivity" />
+
+<activity android:name=".OneHandedKeyboardActivity"/>
+
+<activity android:name=".TextReplacementActivity"/>
+
+<activity
+    android:name=".DialerSettingsActivity"
+    android:exported="false" />
+
+<activity android:name=".KeyboardsListActivity"/>
+
+<activity
+    android:name=".KeyboardStyleActivity"/>
+            
+<activity
+    android:name=".GlassSettingsActivity"/>
+     
+     
+	<service
+    android:name=".IOSKeyboardService"
+    android:permission="android.permission.BIND_INPUT_METHOD"
+    android:exported="true">
+
+    <intent-filter>
+        <action android:name="android.view.InputMethod" />
+    </intent-filter>
+
+    <meta-data
+        android:name="android.view.im"
+        android:resource="@xml/method" />
+</service>
+    </application>
+
+</manifest>
+

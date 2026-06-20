@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/num1"
+           android:background="@drawable/ios_num_key"
+            android:textSize="22sp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/num2"
+           android:background="@drawable/ios_num_key"
+           android:textSize="22sp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="2&#10;ABC"
+            android:gravity="center"
+            android:lines="2"/>
+
+        <Button
+            android:id="@+id/num3"
+           android:textSize="22sp"
+          android:background="@drawable/ios_num_key"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="3&#10;DEF"
+            android:gravity="center"
+            android:lines="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/num4"
+           android:background="@drawable/ios_num_key"
+           android:textSize="22sp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="4&#10;GHI"
+            android:gravity="center"
+            android:lines="2"/>
+
+        <Button
+            android:id="@+id/num5"
+           android:background="@drawable/ios_num_key"
+           android:textSize="22sp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="5&#10;JKL"
+            android:gravity="center"
+            android:lines="2"/>
+
+        <Button
+            android:id="@+id/num6"
+           android:background="@drawable/ios_num_key"
+           android:textSize="22sp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="6&#10;MNO"
+            android:gravity="center"
+            android:lines="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/num7"
+           android:textSize="22sp"
+          android:background="@drawable/ios_num_key"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="7&#10;PQRS"
+            android:gravity="center"
+            android:lines="2"/>
+
+        <Button
+            android:id="@+id/num8"
+           android:textSize="22sp"
+          android:background="@drawable/ios_num_key"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="8&#10;TUV"
+            android:gravity="center"
+            android:lines="2"/>
+
+        <Button
+            android:id="@+id/num9"
+           android:textSize="22sp"
+          android:background="@drawable/ios_num_key"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="9&#10;WXYZ"
+            android:gravity="center"
+            android:lines="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/decimalKey"
+           android:textSize="22sp"
+          android:background="@drawable/ios_num_key"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="."/>
+
+        <Button
+            android:id="@+id/num0"
+            android:background="@drawable/ios_num_key"
+           android:textSize="22sp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:text="0"/>
+
+        <ImageButton
+            android:id="@+id/deleteNum"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_backspace"/>
+    </LinearLayout>
+
+</LinearLayout>
+    
+    
+    

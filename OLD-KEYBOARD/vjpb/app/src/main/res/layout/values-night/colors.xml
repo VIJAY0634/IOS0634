@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ios_chevron">#8E8E93</color>
+    <color name="ios_separator">#38383A</color>
+    <color name="ios_card_background">#1C1C1E</color>
+    <color name="ios_page_background">#000000</color>
+    <color name="ios_blue">#0A84FF</color>
+<color name="ios_title_text">#FFFFFF</color>
+<color name="ios_subtitle_text">#8E8E93</color>
+
+</resources>

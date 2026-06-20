@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+android:background="@drawable/popup_bg">
+
+    <TextView
+        android:id="@+id/langEnglishUS"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="English (United States)"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/langEnglishUK"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="English (United Kingdom)"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/langHindi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Hindi (India)"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+<TextView
+    android:id="@+id/langEmoji"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:text="😊 Emoji"
+    android:textSize="16sp"/>
+
+</LinearLayout>
